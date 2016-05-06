@@ -23,7 +23,7 @@ public class isSpam {
         this.tweetInfo = new TweetInfo();
         if(jsonObject != null){
             try {
-               // user = jsonObject.getJSONArray("user");
+               // /user = jsonObject.getJSONArray("user");
                 user = jsonObject.getJSONObject("user");
                 findUser(user);
                 hashtag_count(jsonObject);
