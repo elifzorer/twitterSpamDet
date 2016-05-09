@@ -14,19 +14,17 @@ import java.util.List;
 
 public class ArffFile implements Serializable {
     private String relation = "twitter_spam_data";
-    private int controlCount = 8;
-    private ArrayList<TweetInfo> TweetList = new ArrayList<>();
+    ArrayList<String> TweetValues;
 
-    private final String[] control = { "user_created_age", "statuses_count", "description_lenght", "hashtag_count",
-            "text_lenght", "text_content", "special_control"};
+    private final String[] control = {  "LenghtOfProfileName" , "LenghtOfProfileDescription", "NumberOfFollowings", "NumberOfFollowers",
+                                        "NumberOfTweetsPost" , "AgeOfTheUserAccount", "RatioOfNumberOfFollowingsAndFollowers", "ReputationOfTheUser",
+                                        "FollowingRate" , "NumberOfWords", "NumberOfCharacters",
+                                        "NumberOfCapitalizationCharacter" , "NumberOfCapitalizationWordPerWord", "MaxWordLenght", "MeanWordLenght",
+                                        "NumberOfExclamationMark" , "NumberOfQuestionMark", "NumberOfURL", "URLPerWord",
+                                        "NumberOfHashtag" , "HashtagPerWord", "NumberOfMention", "MentionPerWord",
+                                        "NumberOfSpamWord", "SpamWordPerWord"
+                                       };
 
-    public ArrayList<TweetInfo> getTweetList() {
-        return TweetList;
-    }
-
-    public void setTweetList(ArrayList<TweetInfo> tweetList) {
-        this.TweetList = tweetList;
-    }
 
     @Override
     public String toString() {
@@ -44,20 +42,16 @@ public class ArffFile implements Serializable {
         content.append("@relation '").append(relation).append("'\n");
 
 
-        for(int i=0; i<controlCount-1; ++i){
+        for(int i=0; i<control.length; ++i){
             content.append("@attribute ").append(control[i]).append(" NUMERIC").append("\n");
         }
 
         content.append("@ATTRIBUTE class {spam,legitimate}\n");
 
         content.append("@data \n");
-        if(TweetList != null)
-            for(int i=0; i<TweetList.size(); ++i)
-                content.append(TweetList.get(i).getUser_created_age()).append(" ").
-                        append(TweetList.get(i).getStatuses_count()).append(" ").
-                        append(TweetList.get(i).getDescription_lenght()).append(" ").
-                        append(TweetList.get(i).getHashtag_count()).append(" ").
-                        append(TweetList.get(i).getText_lenght()).append("\n");
+
+        for(int i=0; i<1000; ++i)
+            content.append(TweetValues.get(i));
 
         return content.toString();
     }
@@ -79,8 +73,8 @@ public class ArffFile implements Serializable {
     }
 
 
-    public ArffFile(ArrayList<TweetInfo> tweetList ){
-        setTweetList(tweetList);
+    public ArffFile(ArrayList<String> TweetValues){
+        this.TweetValues = TweetValues;
     }
 
 }

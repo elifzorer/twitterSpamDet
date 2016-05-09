@@ -1,0 +1,347 @@
+@relation 'twitter_spam_data'
+@attribute LenghtOfProfileName NUMERIC
+@attribute LenghtOfProfileDescription NUMERIC
+@attribute NumberOfFollowings NUMERIC
+@attribute NumberOfFollowers NUMERIC
+@attribute NumberOfTweetsPost NUMERIC
+@attribute AgeOfTheUserAccount NUMERIC
+@attribute RatioOfNumberOfFollowingsAndFollowers NUMERIC
+@attribute ReputationOfTheUser NUMERIC
+@attribute FollowingRate NUMERIC
+@attribute NumberOfWords NUMERIC
+@attribute NumberOfCharacters NUMERIC
+@attribute NumberOfCapitalizationCharacter NUMERIC
+@attribute NumberOfCapitalizationWordPerWord NUMERIC
+@attribute MaxWordLenght NUMERIC
+@attribute MeanWordLenght NUMERIC
+@attribute NumberOfExclamationMark NUMERIC
+@attribute NumberOfQuestionMark NUMERIC
+@attribute NumberOfURL NUMERIC
+@attribute URLPerWord NUMERIC
+@attribute NumberOfHashtag NUMERIC
+@attribute HashtagPerWord NUMERIC
+@attribute NumberOfMention NUMERIC
+@attribute MentionPerWord NUMERIC
+@attribute NumberOfSpamWord NUMERIC
+@attribute SpamWordPerWord NUMERIC
+@ATTRIBUTE class {spam,legitimate}
+@data 
+14,9,45,26,151,172,0.58,0.37,0.26,11,87,18,1.64,23,0,0,0,0,0.0,0,0.0,1,0.09,0,0.0,RT @TmarTn: Battlefield 1
+Set in World War I
+Played on Xbox One https://t.co/iGMuNXuuEW
+7,4,1343,1818,86122,1734,1.35,0.58,0.77,16,118,12,0.75,15,0,0,0,0,0.0,0,0.0,2,0.13,0,0.0,RT @GaryLineker: Congratulations to Middlesbrough on being promoted to the @premierleague . See you in August on MOTD.
+11,10,16195,15667,30482,97,0.97,0.49,166.96,-3,139,30,-10.0,120,0,0,0,0,0.0,0,0.0,6,-2.0,0,0.0,RT @xxxMxGxWxVxxx: ⭐️ＲＥＴＷＥＥＴ
+
+⭐️ＩＦ
+
+⭐️ＹＯＵ
+
+⭐️ＦＯＬＬＯＷＢＡＣＫ
+
+⭐️#ＭＧＷＶ
+
+⇩ＦＯＬＬＯＷ⇩
+
+@MGWV_EGY
+@freexlnxtruth
+@MWAAGENCYLTD
+@msmodel143
+@lllTOKYOlll
+10,47,269,327,6514,376,1.22,0.55,0.72,11,93,7,0.64,23,0,0,1,1,0.09,0,0.0,1,0.09,3,0.25,RT @king_migo: "depressed? nigga if you don't go get some damn pussy" https://t.co/KOnk5bGzVM
+15,60,296,462,18260,802,1.56,0.61,0.37,9,53,3,0.33,14,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,RT @teenagefiles: I didn't know your love was a game.
+13,81,457,479,25544,419,1.05,0.51,1.09,7,79,15,2.14,24,0,0,0,1,0.14,1,0.14,0,0.0,0,0.0,Coventry City Put Premium Memberships On Sale... https://t.co/fysaQxOuWX
+ #PUSB
+11,158,403,424,583,1444,1.05,0.51,0.28,10,139,13,1.3,24,0,0,0,1,0.1,2,0.2,2,0.2,0,0.0,Exciting collaboration with #jannettas #StAndrews part of @CrailFoodFest Updates and news to follow https://t.co/8v0uLn2NcW… @VisitScotNews
+7,35,277,3543,6072,2489,12.79,0.93,0.11,7,73,13,1.86,23,0,0,0,1,0.14,0,0.0,0,0.0,0,0.0,DC LaborFest: Upcoming Soccer &amp; Poetry Events https://t.co/d8InZR6YkK
+12,23,489,565,7793,1445,1.16,0.54,0.34,13,88,10,0.77,22,0,0,1,0,0.0,0,0.0,1,0.08,0,0.0,RT @KweeahKB: Lmao why did I get high before my grad pics? 😭😭😭 http://t.co/OMrjb5Z5ou
+12,146,562,214,8053,2406,0.38,0.28,0.23,1,19,4,4.0,13,0,3,0,0,0.0,0,0.0,1,1.0,0,0.0,Holis @JesusMP09!!!
+12,150,744,810,42724,1977,1.09,0.52,0.38,6,39,1,0.17,9,0,0,0,0,0.0,0,0.0,1,0.17,0,0.0,@iMac1975 didn't need any this time lol
+15,57,501,266,2410,760,0.53,0.35,0.66,23,129,13,0.57,12,0,0,0,0,0.0,0,0.0,1,0.04,0,0.0,RT @JayeHanash: Heard that people at the show tonight in ATC had tickets to the concerts in New York and SanFo. 
+Now that's love.
+6,4,64,35,621,404,0.55,0.35,0.16,14,133,21,1.5,23,0,2,0,0,0.0,1,0.07,2,0.14,0,0.0,RT @mvhsbruins: Best of Utah Valley... @Bruin_Crazies Our House Shines! Way to Show Up Bruins! #WeveGotSpirit https://t.co/dtgOllYVYp
+11,41,715,1372,78435,1507,1.92,0.66,0.47,5,40,3,0.6,11,0,0,0,0,0.0,0,0.0,1,0.2,1,0.17,RT @xoerindee: nah. Nevermind fuck y'all
+11,5,57,18,666,188,0.32,0.24,0.3,9,83,9,1.0,23,0,0,0,1,0.11,0,0.0,1,0.11,0,0.0,RT @dota2reddit: Only 6 players attended all 5 Tis+3 majors https://t.co/3PHa7BRMzk
+14,48,0,115,287565,201,2.147483647E9,0.0,0.0,17,139,17,1.0,23,0,2,0,1,0.06,0,0.0,0,0.0,0,0.0,Antique C 1840 Victorian 14k Gold 7.80 Ct Amethyst Lavaliere Pendant Necklace! - Bid Now! … https://t.co/GwFrz4erG9 https://t.co/8EkakCVl0h
+11,42,290,237,1107,578,0.82,0.45,0.5,19,127,13,0.68,14,0,0,0,0,0.0,1,0.05,1,0.05,0,0.0,RT @bhorsetrials: La Biosthetique Sam FBW completes his 6th four star cross country within the time from just 8 attempts #MMBHT
+12,159,496,424,277,830,0.85,0.46,0.6,13,137,29,2.23,23,0,0,0,0,0.0,2,0.15,4,0.31,0,0.0,RT @975krock: Lets Do This ... Ready to Rock It for The Mac @975krock @hitsfm @VOCMNEWS #FortMacFire #HelpFortMac https://t.co/9TOaLXi8yE
+15,4,44,61,946,815,1.39,0.58,0.05,10,102,13,1.3,23,0,0,0,1,0.1,0,0.0,1,0.1,0,0.0,RT @thefader: Listen to two new songs from Tory Lanez. https://t.co/fnhUAqfYYs https://t.co/0GnhRZtbFh
+8,142,1160,1963,87227,532,1.69,0.63,2.18,1,15,8,8.0,10,0,0,0,0,0.0,0,0.0,1,1.0,0,0.0,@BIGJ_BOSS home
+11,4,536,275,5557,254,0.51,0.34,2.11,6,49,5,0.83,13,0,0,1,0,0.0,0,0.0,1,0.17,0,0.0,RT @lauramarano: Is everyone breathing after APs?
+15,56,14,406,11249,458,29.0,0.97,0.03,7,44,4,0.57,12,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @iamsoshort: I'm mad but I ain't stressin
+11,26,85,40,330,490,0.47,0.32,0.17,3,53,10,3.33,23,0,0,0,0,0.0,0,0.0,1,0.33,0,0.0,RT @SincerelyTumblr: Accurate https://t.co/BDhbAwJEcz
+8,68,206,1047,59180,465,5.08,0.84,0.44,5,74,10,2.0,23,0,0,0,0,0.0,0,0.0,2,0.4,0,0.0,RT @NormaniKordei: @billboard 🌙 extremely surreal https://t.co/ZYP2klSkXC
+10,4,169,52,219,147,0.31,0.24,1.15,5,41,0,0.0,15,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,@thetwilightsad save travels and enjoy 🎉
+9,60,581,1920,28949,437,3.3,0.77,1.33,21,140,8,0.38,23,0,0,0,0,0.0,0,0.0,1,0.05,0,0.0,RT @versacepacks: Ronnie alonte icons 😂
+
+× a follow would be nice
+× rt if using or saved
+× be honest and give creds https://t.co/eWCEJpM26q
+12,13,130,39,825,184,0.3,0.23,0.71,20,140,18,0.9,19,0,0,0,0,0.0,0,0.0,1,0.05,1,0.05,RT @INCIndia: "Narendra Modi’s attitude towards people is to use and throw them" - former BJP Minister Shri Arun Shourie https://t.co/9tGFG…
+14,74,919,207,243,193,0.23,0.18,4.76,7,127,16,2.29,40,0,0,0,1,0.14,1,0.14,1,0.14,0,0.0,.@apostlesag on #Periscope: Christ Apostolic Commission Part 1 #ApostolicMinistry#ChristThePerfectModel https://t.co/dhXDQbGsmY
+11,6,892,1031,6799,153,1.16,0.54,5.83,13,98,7,0.54,23,0,0,0,0,0.0,0,0.0,1,0.08,0,0.0,RT @glowkit: when you get a little too excited about your new highlighter
+ https://t.co/Q0dXzJT5nD
+9,4,1764,3230,816,365,1.83,0.65,4.83,12,106,21,1.75,23,0,1,0,1,0.08,0,0.0,1,0.08,0,0.0,RT @PackSmall: Surgeon Pops His Blackhead But It Was Actually Something Else, OMG! https://t.co/cnJ4PsJvS3
+10,109,931,180,3580,784,0.19,0.16,1.19,19,92,1,0.05,7,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,I wanna be your "gusto kong marinig boses mo" in this world full of "shut up ka nalang" 😔💔
+10,4,287,88,4724,66,0.31,0.23,4.35,13,124,35,2.69,23,0,0,0,0,0.0,0,0.0,2,0.15,0,0.0,RT @kaurrjit: MAHARASHTRA DROUGHT RELIEF @Khalsa_Aid Is delivering 100,000 litres of water each day. https://t.co/sQ3O5BQRyK
+9,10,20,29,985,2284,1.45,0.59,0.01,8,82,27,3.38,23,0,0,0,0,0.0,0,0.0,1,0.13,0,0.0,RT @PriZe598: Real Change is Coming..
+
+DUTERTE GRAND RALLY https://t.co/xHiqJ086B0
+12,4,50,116,649,332,2.32,0.7,0.15,13,105,6,0.46,18,0,0,0,0,0.0,1,0.08,1,0.08,0,0.0,RT @Pontifex: Love, by its nature, is communication; it leads to openness and sharing. #ComMisericordia50
+6,73,290,1039,30971,1261,3.58,0.78,0.23,24,140,5,0.21,14,0,0,0,1,0.04,0,0.0,1,0.04,0,0.0,RT @StevStiffler: this is the purest thing I’ve ever seen in my whole life… this transcends purity there is not even a word for this https:…
+13,37,143,145,2699,388,1.01,0.5,0.37,3,36,5,1.67,23,0,0,0,1,0.33,0,0.0,0,0.0,0,0.0,Apple sauce  https://t.co/7fnJRMz4O2
+14,99,536,369,32486,1214,0.69,0.41,0.44,15,144,20,1.33,19,0,0,0,0,0.0,1,0.07,1,0.07,0,0.0,RT @bharatvanshi_tw: #BootLickersOfSonia 
+
+The Hidden Hand ( KHANgress ) 
+
+with a
+
+Hidden Agenda
+
+2 Malign Hindus &amp; India https://t.co/mpTN…
+11,154,373,378,1687,92,1.01,0.5,4.05,15,126,13,0.87,23,0,0,0,0,0.0,1,0.07,1,0.07,0,0.0,RT @bangtanitl: Previews of #BTS performing at &lt;화양연화 on stage: epilogue&gt; Day 1, 160507 (cr logo) https://t.co/mBE40DzMMM
+11,4,0,0,1,0,2.147483647E9,0.0,2.147483647E9,7,46,2,0.29,10,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,I definitely got something right.... Proud dad
+10,113,293,155,38,114,0.53,0.35,2.57,6,51,8,1.33,21,0,0,0,0,0.0,1,0.17,0,0.0,0,0.0,Waiting for the FT to start.. 
+#GainWithXtiandelaFT
+9,8,301,280,4992,188,0.93,0.48,1.6,7,42,4,0.57,8,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,@DSTrey5 I don't have to explain myself 🤗
+10,51,453,415,46201,1759,0.92,0.48,0.26,5,47,5,1.0,14,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,@astoldbyMELLO ugh you're so bad 😩😍🙈👀👅🙄😳
+12,16,190,589,31886,986,3.1,0.76,0.19,5,67,9,1.8,23,0,0,0,1,0.2,0,0.0,1,0.2,0,0.0,RT @NiggaCommentary: Worst friend ever 😂😭 https://t.co/XIl16pM9eO
+11,61,167,253,2487,1190,1.51,0.6,0.14,20,140,5,0.25,15,0,0,0,0,0.0,0,0.0,1,0.05,0,0.0,RT @nayaaadawiyah: People were screaming Allahu Akbar non-stop because of the turbulence and all i can see is disrespectful comments. https…
+10,160,1320,590,15902,1585,0.45,0.31,0.83,21,120,19,0.9,13,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,UPDATE: went and ate lunch by my pond, and there are now SIX mallardlings, THREE cootlets and still only THREE goslings.
+7,97,62,11,168,799,0.18,0.15,0.08,18,140,3,0.17,14,0,0,0,0,0.0,0,0.0,1,0.06,0,0.0,RT @began_n: The following person was a leading role of school violence, including physical and emotional insult. (continued) https://t.co/…
+12,27,203,198,4119,1086,0.98,0.49,0.19,11,56,1,0.09,7,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,You got your demons &amp; darling they all look like me.
+9,4,1313,543,1920,414,0.41,0.29,3.17,6,98,14,2.33,24,0,0,0,1,0.17,0,0.0,1,0.17,1,0.14,RT @Runmakung69: [pandora] Erection While Massage 
+https://t.co/7cUeeNmsQQ https://t.co/IflGrvHO9i
+8,97,350,399,17294,520,1.14,0.53,0.67,22,139,12,0.55,14,0,0,0,0,0.0,1,0.05,1,0.05,0,0.0,RT @piaranada: Duterte on Mindanao conflict: Give me time to find a compromise. But to Muslims I say, it will be one nation. #PHVoteDuterte
+10,4,488,13,6,12,0.03,0.03,40.67,15,140,15,1.0,23,0,0,0,1,0.07,0,0.0,1,0.07,1,0.06,RT @sexyladyusa1990: Welcome TERI joined our network. Enroll right now at https://t.co/AUk44YL9d0  her nick: sexlady031 https://t.co/8J8ZGf…
+13,58,153,483,729,1445,3.16,0.76,0.11,10,107,22,2.2,17,0,2,0,0,0.0,0,0.0,4,0.4,0,0.0,RT @CUAWomensSoccer: Let's go @CUAWLAX &amp; @CUA_Lax! Good luck in @LandmarkConf championship games today!
+11,4,148,167,5883,1565,1.13,0.53,0.09,14,99,15,1.07,13,0,0,0,0,0.0,0,0.0,2,0.14,0,0.0,RT @OpTicMaNiaC: Airport w/ @MLGACE... Hopefully sleep the whole flight and have a relaxing day. 😎
+11,63,58,25,8323,299,0.43,0.3,0.19,2,8,0,0.0,4,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,woke up*
+11,145,160,262,1174,54,1.64,0.62,2.96,13,123,62,4.77,34,0,1,0,0,0.0,0,0.0,1,0.08,0,0.0,@precious_malec GOODNIGHT MAGNIFICENT WARLOCK! I WILL TALK TO YOU PROBABLY WHEN YOU WAKE UP❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️✨✨✨✨✨✨✨✨✨✨✨✨
+6,17,355,142,1744,261,0.4,0.29,1.36,9,79,9,1.0,23,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,RT @OMGtrolls: "I wanna travel the world"
+
+"Then do it" https://t.co/164sZ3jLtz
+9,113,535,290,21052,346,0.54,0.35,1.55,18,140,24,1.33,23,0,0,0,1,0.06,1,0.06,1,0.06,0,0.0,RT @Sky1876Online: Ladies This Is Why It Stinks Down There. A Guide On How To Eliminate Vaginal Odor https://t.co/WxNvrva1no #CSent https:/…
+10,14,3152,3189,2453,290,1.01,0.5,10.87,1,34,1,1.0,31,0,0,0,0,0.0,1,1.0,0,0.0,0,0.0,#المباحث_بتوزع_فولورز_تاني
+Back 😍
+12,4,5,3,451,5,0.6,0.38,1.0,13,128,10,0.77,23,0,1,0,1,0.08,3,0.23,0,0.0,1,0.07,kik #model #vagina #ultimate Get a private session with me you won't regret it!  https://t.co/ahl5BebXT4 https://t.co/VwkNU7IVEl
+10,158,65,117,3679,469,1.8,0.64,0.14,9,63,7,0.78,23,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,New hair. Look like an egg. Don't care. https://t.co/GDFqmijkQa
+12,14,386,1144,26289,631,2.96,0.75,0.61,6,67,28,4.67,23,0,0,0,0,0.0,0,0.0,1,0.17,0,0.0,RT @prabhujbps: 25DAYS OF BLOCKBUSTER THERI https://t.co/80IHQFyzan
+14,114,3669,3349,61708,877,0.91,0.48,4.18,21,127,8,0.38,18,0,0,0,0,0.0,0,0.0,1,0.05,0,0.0,RT @LordCynico: Ha, I highlight a moron to my followers on here and it's like I've fed someone to the lions.
+
+Fantastic. 
+
+😂👍
+12,4,141,385,5535,368,2.73,0.73,0.38,7,56,7,1.0,23,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @earthfuI: Where I need to be https://t.co/sUhSvf8klb
+14,38,286,162,343,657,0.57,0.36,0.44,4,36,3,0.75,11,0,0,0,0,0.0,0,0.0,2,0.5,0,0.0,@Tr38cho @SoundCloud like it me boyo
+15,4,4977,4306,180,385,0.87,0.46,12.93,15,138,14,0.93,29,0,0,0,1,0.07,0,0.0,1,0.07,0,0.0,RT @bestforgirls: Best Cars for Teenagers.... I have #3 but number 10 is my favorite 😭😍🚘https://t.co/sGuwDhtF5j https://t.co/1GmUA5SKuv
+12,4,484,791,25579,809,1.63,0.62,0.6,11,66,4,0.36,9,0,0,2,0,0.0,0,0.0,1,0.09,0,0.0,RT @Fanyxo_: 4. Staying after she said "bye" like where we going??
+13,36,20455,25599,122236,622,1.25,0.56,32.89,15,138,14,0.93,29,0,0,0,1,0.07,0,0.0,1,0.07,0,0.0,RT @bestforgirls: Best Cars for Teenagers.... I have #3 but number 10 is my favorite 😭😍🚘https://t.co/sGuwDhtF5j https://t.co/1GmUA5SKuv
+12,136,186,188,2463,1261,1.01,0.5,0.15,21,137,12,0.57,12,0,0,0,0,0.0,0,0.0,3,0.14,0,0.0,@DBolt151 @OutFrontCNN @CNN you can't support Trump on the coherence of his policy, or facts of his past misdeeds. So stupid it must be..
+6,139,545,74,2897,811,0.14,0.12,0.67,16,144,13,0.81,23,0,0,0,1,0.06,2,0.13,1,0.06,0,0.0,RT @WHO: We are outraged at the alarming frequency of attacks on health personnel &amp; facilities in #Syria https://t.co/qqrinG7lYW #NotATarget
+14,43,228,185,19388,1377,0.81,0.45,0.17,7,70,12,1.71,23,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @GirlNotes: the most fashionable BFFs ever. https://t.co/A0SGwhTKe6
+8,106,309,341,1919,634,1.1,0.52,0.49,3,20,1,0.33,10,0,0,0,0,0.0,0,0.0,1,0.33,0,0.0,@mcadle235 I know 🙊
+12,45,1065,703,3835,1314,0.66,0.4,0.81,3,49,15,5.0,23,0,0,0,0,0.0,0,0.0,1,0.33,0,0.0,RT @CommonWhiteGrls: NEED https://t.co/LDRymLbeUH
+13,43,11,6,35,874,0.55,0.35,0.01,19,138,11,0.58,23,0,0,0,1,0.05,0,0.0,2,0.11,0,0.0,RT @onlyLeah: Sending SO much love, good energy, &amp; pure joy to my sister, my 🍟, @aglaek on her opening night… https://t.co/h4GDJexOIl
+15,19,183,109,4141,900,0.6,0.37,0.2,7,66,9,1.29,23,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @Lmao: Bless everything this colour tbh https://t.co/tM605CBJLe
+14,48,0,106,84444,45,2.147483647E9,0.0,0.0,17,139,16,0.94,23,0,0,0,1,0.06,0,0.0,0,0.0,1,0.06,Victoria's secret NWT 36b lingerie corset garter bustier red pushup very sexy - Buy It Now… https://t.co/fxK0QSoiXH https://t.co/lDrY4mG5Uh
+10,34,162,121,29555,2849,0.75,0.43,0.06,6,96,19,3.17,23,0,0,0,1,0.17,0,0.0,0,0.0,0,0.0,Rochie StarShinerS Brodata Rose Temptation Black https://t.co/ncuKPAOMGg https://t.co/KIwRmTmvwX
+8,17,37,1320,9956,844,35.68,0.97,0.04,3,14,2,0.67,5,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Rise and Grind
+10,4,54,53,119,1438,0.98,0.5,0.04,9,54,1,0.11,10,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Captain cool but not giving bowling to main spinner...
+10,81,142,113,3984,2053,0.8,0.44,0.07,4,19,1,0.25,7,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,In affleck we trust
+8,66,368,359,19097,2506,0.98,0.49,0.15,14,67,1,0.07,10,0,0,0,0,0.0,0,0.0,0,0.0,1,0.07,Cor a bit of sun and all the twats and crackheads come out 😷😷😷😷
+12,36,473,300,9595,329,0.63,0.39,1.44,6,40,6,1.0,16,0,0,0,0,0.0,0,0.0,1,0.17,1,0.14,RT @ItIsOurJourney: hey hi hello hi 😛💜
+15,4,156,38,163,140,0.24,0.2,1.11,4,53,8,2.0,23,0,0,0,0,0.0,0,0.0,1,0.25,0,0.0,RT @trrvisXX: Bruh dead😂😂😂 https://t.co/bus8a1YcQK
+11,4,30326,31299,130,584,1.03,0.51,51.93,9,82,13,1.44,23,0,0,0,1,0.11,0,0.0,1,0.11,0,0.0,RT @dhanjeet4077: Tattoos That Tell The Story Of Your Life https://t.co/GFlkk1Loh4
+8,158,696,728,9289,1353,1.05,0.51,0.51,16,140,4,0.25,14,0,0,0,0,0.0,0,0.0,4,0.25,0,0.0,RT @dsylvia75: @maxlydic @330ci @marklevinshow he used those terms about conservatives who would vote Hillary over trump. Nothing about vet…
+13,31,97,56,3129,1779,0.58,0.37,0.05,12,58,2,0.17,6,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Oh look guys, we're in new London where it always rains 😑
+10,136,767,973,1297,1139,1.27,0.56,0.67,15,140,9,0.6,15,0,0,0,0,0.0,2,0.13,3,0.2,0,0.0,RT @newlaborforum: Two of our authors present for @labourstart in Toronto. Follow - #1uLabourStart #1u 
+(with Tom Juravich &amp; @clenchner)
+8,70,3890,5555,43699,2610,1.43,0.59,1.49,17,125,20,1.18,23,0,0,0,1,0.06,0,0.0,1,0.06,0,0.0,Check out LLadro In The Gondola Issue Year 1978  Sculptor Francisco Catala' Mint Condition  https://t.co/Y5moCNArQJ via @eBay
+13,116,155,18,1875,137,0.12,0.1,1.13,27,146,4,0.15,9,0,0,0,0,0.0,0,0.0,1,0.04,0,0.0,@BTS_twt you are all amazing. Thank you for the music &amp; hard work that inspiring me and gave me strength to keep on trying &amp; not giving up
+10,9,774,1086,51383,1495,1.4,0.58,0.52,16,127,10,0.63,23,0,0,1,0,0.0,1,0.06,1,0.06,0,0.0,RT @60708090smusic: Is this love, is this love, is this love Is this love that I'm feeling?
+
+#BobMarley https://t.co/095mthBGNw
+11,1,138,495,7473,962,3.59,0.78,0.14,8,60,9,1.13,23,0,0,0,0,0.0,0,0.0,1,0.13,0,0.0,RT @OhBaeMsgs: To my one and only 😘 https://t.co/K3nb7HoulL
+9,4,34,1,14981,259,0.03,0.03,0.13,6,51,3,0.5,17,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Get Weather Updates from theweatherchannel 09:47:30
+14,48,0,106,84445,45,2.147483647E9,0.0,0.0,14,118,15,1.07,23,0,1,0,1,0.07,0,0.0,0,0.0,0,0.0,Victoria's Secret Angel Fragrance Mist 8.4 oz - Buy It Now! Only $22.0 https://t.co/rVc6sLV8R1 https://t.co/qqyS1wgfMr
+13,57,378,564,8371,1299,1.49,0.6,0.29,17,85,2,0.12,8,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,I've been doing homework nonstop since 7 last night Some1 plz put me out of my misery
+12,22,44,19,128,249,0.43,0.3,0.18,9,64,3,0.33,15,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,RT @Thesillyjilly: guess who is sick
+-points to self- 
+this girl
+13,18,340,125,2514,761,0.37,0.27,0.45,3,39,2,0.67,23,0,0,0,1,0.33,0,0.0,0,0.0,0,0.0,Well said bully https://t.co/T8s92xdr4x
+13,102,568,270,1206,1089,0.48,0.32,0.52,12,92,3,0.25,23,0,0,0,1,0.08,0,0.0,0,0.0,0,0.0,That is original thought the police where helping the. For a minute. https://t.co/6w9zcCjali
+6,21,510,1189,54815,1183,2.33,0.7,0.43,6,67,3,0.5,23,0,0,0,1,0.17,0,0.0,1,0.17,0,0.0,@_shrodriguez lmao us in Lucians yesterday  https://t.co/bNncenwooE
+11,36,1414,569,11469,1305,0.4,0.29,1.08,17,139,7,0.41,23,0,0,0,0,0.0,1,0.06,1,0.06,0,0.0,RT @taechuu: taehyungs support balloon from the fans glows in the dark, this is so adorable ❤️ #화양연화onstageEpilogue https://t.co/4lFQCNwlxa
+11,91,19,1079,19876,93,56.79,0.98,0.2,15,131,19,1.27,23,0,0,0,1,0.07,0,0.0,1,0.07,1,0.06,RT @mitchellvii: Top House Republicans Speak Out Against Paul Ryan: "I Don't Understand What He's Thinking" https://t.co/S01m7kJ1G0
+5,43,2403,2410,25976,1618,1.0,0.5,1.49,13,105,3,0.23,16,0,0,0,0,0.0,1,0.08,1,0.08,0,0.0,RT @sagittarius647: #Sagittarius don't always like to be around somebody, they'd love their "alone" time.
+9,9,212,1456,25918,340,6.87,0.87,0.62,1,20,3,3.0,15,0,0,0,0,0.0,0,0.0,1,1.0,0,0.0,@MaletaNiDenden seen
+10,47,1961,1480,10693,1177,0.75,0.43,1.67,21,140,8,0.38,16,0,0,0,0,0.0,0,0.0,1,0.05,0,0.0,RT @AthIetesForGod: Selfishness is weakness. But loving and caring for others is a position of power beyond anything we can possibly imagin…
+8,22,880,918,15769,1790,1.04,0.51,0.49,22,138,8,0.36,17,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Today in Jewish History (1964) 3 civil rights workers (two Jewish) helping African-Americans register to vote in Miss. are killed by Klan.
+10,27,124,194,11538,1337,1.56,0.61,0.09,12,108,8,0.67,23,0,0,0,1,0.08,0,0.0,2,0.17,0,0.0,RT @PsychToday: It's possible to love yourself, flaws and all. Here's how:  https://t.co/24FDkluf7l @swhitbo
+10,34,1528,2183,66316,1470,1.43,0.59,1.04,5,44,6,1.2,23,0,0,0,1,0.2,0,0.0,0,0.0,0,0.0,Last one has me dead https://t.co/RuOyN6aAF3
+13,59,342,137,164,16,0.4,0.29,21.38,13,76,2,0.15,16,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Women seem wicked when you are unwanted
+Streets are uneven when you are down
+12,4,183,255,5551,1153,1.39,0.58,0.16,8,40,7,0.88,8,0,0,0,0,0.0,0,0.0,1,0.13,0,0.0,RT @JmeBBK: Like big man ting on a level
+11,82,370,1022,19981,1048,2.76,0.73,0.35,11,88,5,0.45,23,0,0,0,0,0.0,0,0.0,1,0.09,0,0.0,RT @comedyorjoke: When you log on Twitter and nobody is tweeting https://t.co/jOu3gl89v0
+12,51,172,51,281,46,0.3,0.23,3.74,11,49,2,0.18,5,0,0,0,0,0.0,0,0.0,0,0.0,1,0.08,You and I we're made of glass we would never last
+13,23,731,637,10471,1454,0.87,0.47,0.5,14,72,2,0.14,11,0,0,0,0,0.0,0,0.0,1,0.07,1,0.07,RT @alexxcory: i keep a lot of things to myself people talk to damn much
+9,28,550,506,45600,2442,0.92,0.48,0.23,9,81,8,0.89,23,0,0,0,1,0.11,0,0.0,1,0.11,0,0.0,RT @tayaranrusi: when batman shows up as your uber driver https://t.co/SJcQEefNNi
+10,127,338,175,26662,321,0.52,0.34,1.05,6,85,6,1.0,46,0,0,0,0,0.0,1,0.17,1,0.17,0,0.0,RT @jungkkjng: play this at my funeral 
+
+#화양연화onstageEpilogue
+https://t.co/DgKi5l4qyR
+7,15,252,220,3290,1886,0.87,0.47,0.13,14,105,7,0.5,23,0,0,0,1,0.07,0,0.0,0,0.0,0,0.0,Moving your energy -- both physically and emotionally -- is ju... More for Taurus https://t.co/NuuT4bFOtc
+9,20,544,649,2835,500,1.19,0.54,1.09,7,68,7,1.0,23,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @jelynntatum: Holding onto my grades like https://t.co/RxhcTY0xOo
+6,44,2112,1044,28281,2549,0.49,0.33,0.83,6,51,3,0.5,23,0,0,1,1,0.17,0,0.0,0,0.0,1,0.14,What the fuck is she doing? https://t.co/iwr8DhPduw
+10,110,369,562,20271,964,1.52,0.6,0.38,8,81,12,1.5,23,0,0,0,0,0.0,0,0.0,1,0.13,0,0.0,RT @IslandAppareI: Hooded Windbreakers 👥 
+
+(Link in bio) https://t.co/csbwadLWQX
+10,4,196,15,1309,237,0.08,0.07,0.83,12,123,40,3.33,23,0,0,0,0,0.0,3,0.25,1,0.08,0,0.0,RT @sugaupdates: VID. 160507 화양연화 ON STAGE : EPILOGUE #방탄소년단 #슈가 #SUGA ~ BUTTERFLY ©JeonJungkook119 https://t.co/ZBslcGN0Hm
+9,4,20,2,596,658,0.1,0.09,0.03,11,133,19,1.73,31,0,1,0,1,0.09,1,0.09,0,0.0,0,0.0,Found a Transponder Snail!
+A tearful farewell: The Going Merry's last voyage.
+https://t.co/WuXeKHEU1j #TreCru https://t.co/kjRjeCBOhc
+11,104,998,3687,45358,2691,3.69,0.79,0.37,22,140,7,0.32,12,0,0,0,0,0.0,0,0.0,1,0.05,0,0.0,@JamesBigg I do appreciate that the club stuck with Neil, but his loyalty to Jerome is baffling. Decent Championship striker, but that's it.
+14,157,230,276,518,51,1.2,0.55,4.51,25,139,3,0.12,16,0,0,0,0,0.0,0,0.0,1,0.04,0,0.0,@PerfectRetainer — beside her to held onto her hand in a comfort manor. Her eyes gazed up at the flawless and perfect gentleman who cared —
+8,4,1043,483,7544,1018,0.46,0.32,1.02,6,56,28,4.67,12,0,5,0,0,0.0,0,0.0,1,0.17,0,0.0,HAPPY BIRTHDAY GORGEOUS!!!! LOVE YOU! 💖💖🎉 @yaannindie
+8,115,897,766,140305,1969,0.85,0.46,0.46,11,89,13,1.18,19,0,1,0,0,0.0,1,0.09,1,0.09,0,0.0,RT @alnikon_: Everyone put your konbats on! It's really nice. - Bobby #iKONCERTinHongkong
+11,81,230,241,11663,1436,1.05,0.51,0.16,18,140,10,0.56,15,0,1,0,0,0.0,1,0.06,2,0.11,0,0.0,RT @jeremycorbyn: Congratulations @SadiqKhan. Can't wait to work with you to create a London that is fair for all! #YesWeKhan https://t.co/…
+10,4,272,305,1833,46,1.12,0.53,5.91,15,82,1,0.07,9,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Once you have learned to be content with yourself, no one and nothing else matters
+15,36,317,373,4054,1618,1.18,0.54,0.2,14,67,1,0.07,7,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Woke up this morning and the place looks like a frat house lol oops
+7,77,1200,1150,13740,1556,0.96,0.49,0.77,5,54,18,3.6,23,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,RT @GirlsNoteBook: I LOVE THIS https://t.co/MurGC9Jcfc
+6,29,169,40,14063,938,0.24,0.19,0.18,20,144,7,0.35,11,0,1,0,0,0.0,2,0.1,2,0.1,0,0.0,RT @hossseok: @BTS_twt you were amazing thank you for everything, we are so proud of you! rest well &amp; don't cry anymore T.T
+#방탄수고했어 
+#방탄소년단…
+9,143,2559,5890,16977,2494,2.3,0.7,1.03,6,67,5,0.83,23,0,0,0,0,0.0,1,0.17,0,0.0,0,0.0,Excited to welcome 6000+ new #websteralumni https://t.co/iM4Ht4gZvN
+15,135,897,389,2868,927,0.43,0.3,0.97,13,104,7,0.54,23,0,0,0,0,0.0,0,0.0,1,0.08,0,0.0,RT @Historicalmages: Mark Twain smoking a cigar and relaxing on the porch, 1905. https://t.co/tH1kxAlhzm
+11,23,192,405,39175,2587,2.11,0.68,0.07,16,127,16,1.0,23,0,0,0,0,0.0,1,0.06,1,0.06,0,0.0,RT @FCBayernSquad: Wow. 65 goals in 98 games in a Bayern Munich kit for Lewandowski. Superb. #MiaSanMia https://t.co/qdTr9vqmQi
+7,104,387,168,3640,1344,0.43,0.3,0.29,19,140,7,0.37,16,0,0,0,1,0.05,0,0.0,1,0.05,1,0.05,RT @MichelleRempel: Come on guys...the bill was debated for two hours according to normal procedure that's in the Standing Orders. https://…
+11,99,339,566,2658,296,1.67,0.63,1.15,7,65,22,3.14,23,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,RT @conciseanomaly: DRAKE FANS ARE LIT AF https://t.co/cSyYlOatbp
+11,132,625,776,102635,2510,1.24,0.55,0.25,6,38,1,0.17,11,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,One girl said "yuse tah_parker" 😂😂😂
+13,17,1445,676,7747,482,0.47,0.32,3.0,3,33,0,0.0,13,0,0,0,0,0.0,0,0.0,1,0.33,0,0.0,@simoneduved2 no you're beautiful
+12,47,619,149,7598,1850,0.24,0.19,0.33,13,105,10,0.77,23,0,0,0,1,0.08,0,0.0,0,0.0,0,0.0,Although a major crisis continues to brew beneath the surface,... More for Cancer https://t.co/ASAISrFQ22
+8,4,400,802,19401,1492,2.01,0.67,0.27,10,40,0,0.0,5,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,layed down at like 8 and just woke up 😳
+9,95,1743,875,408,3,0.5,0.33,581.0,2,102,23,11.5,14,0,0,0,0,0.0,0,0.0,8,4.0,0,0.0,RT @Steadyyss: @YTGrow @Quickest_Rts @ShawnAbner @Gamer_RTweets @TG_Shout @YTG_shout @CoD_RTs thankyou
+9,4,49,5,42,70,0.1,0.09,0.7,25,140,13,0.52,15,0,0,0,0,0.0,0,0.0,2,0.08,0,0.0,RT @JPSambo7: @SecLeiladeLima I will support you even I'm not a Voter I will share to them what kind of person you are in doing ur job
+
+1Pi…
+14,115,45,41,6228,406,0.91,0.48,0.11,18,140,3,0.17,14,0,0,0,0,0.0,0,0.0,1,0.06,0,0.0,RT @began_n: The following person was a leading role of school violence, including physical and emotional insult. (continued) https://t.co/…
+9,69,281,481,8667,2493,1.71,0.63,0.11,18,135,6,0.33,23,0,0,0,1,0.06,0,0.0,0,0.0,0,0.0,100% agree. The key is to have a comprehensive understanding of the best/worst case outcomes for each approach. https://t.co/EfVqHonESr
+8,38,194,24,61,378,0.12,0.11,0.51,36,139,49,1.36,16,0,0,0,0,0.0,0,0.0,1,0.03,0,0.0,RT @Soul_For_Soles: I
+
+ J
+ U
+ S
+ T
+
+ W
+ A
+ N
+ T
+
+ T
+ O
+
+ T
+ H
+ A
+ N
+ K
+
+ G
+ O
+ D
+
+ F
+ O
+ R
+
+ E
+ V
+ E
+ R
+ Y
+ T
+ H
+ I
+ N
+ G
+
+ RETWEET IF YOU…
+8,14,522,596,23179,2570,1.14,0.53,0.2,11,55,0,0.0,11,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,the rest of the night will be spent on reading.... 📖🎶
+9,44,56,91,1129,1417,1.63,0.62,0.04,9,44,0,0.0,8,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,i want to research too..so make out pls guys
+11,4,150,77,248,346,0.51,0.34,0.43,20,134,8,0.4,11,0,0,0,0,0.0,0,0.0,2,0.1,0,0.0,@PaulaPix91 @UKRunChat I've been told to relax and not hold your abs in, and when breathing inflate your stomach. It'll help hopefully
+15,4,41,9,685,371,0.22,0.18,0.11,9,48,0,0.0,11,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,@csgolounge because 2.50 = 1.00 and 1.00  = 0.00
+11,145,122,287,14228,581,2.35,0.7,0.21,2,27,6,3.0,17,0,0,0,0,0.0,1,0.5,0,0.0,0,0.0,#PNATnx4DMemories // thirty
+13,4,10,4,6796,38,0.4,0.29,0.26,2,27,6,3.0,17,0,0,0,0,0.0,1,0.5,0,0.0,0,0.0,#PNATnx4DMemories // thirty
+14,114,58,22,106,1026,0.38,0.28,0.06,6,66,3,0.5,16,0,1,0,0,0.0,0,0.0,3,0.5,0,0.0,@immigrant4trump @YouTube welcome Mr mark, hop on the @trumptrain!
+11,44,262,206,2900,977,0.79,0.44,0.27,11,52,1,0.09,7,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,I look like someone punched me in both eyes. oh well
+13,63,683,952,13653,2658,1.39,0.58,0.26,7,69,5,0.71,16,0,2,0,0,0.0,0,0.0,2,0.29,0,0.0,@BruceLevenstein @TomWhitwell It ain't like this normally, enjoy it!!
+13,39,852,1591,11877,2002,1.87,0.65,0.43,27,140,6,0.22,10,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Happy for Boro. We know what it's like to lose a Play Off Final when you've come so close to automatic, makes later promotion so much better
+13,72,1986,2445,3136,1147,1.23,0.55,1.73,11,91,11,1.0,23,0,1,0,0,0.0,0,0.0,1,0.09,0,0.0,Get yourselves down to @CGArtSchool to see some live stone carving! https://t.co/kYjFZOkYHx
+14,160,299,17351,205551,2310,58.03,0.98,0.13,12,122,17,1.42,23,0,1,0,0,0.0,2,0.17,1,0.08,1,0.08,RT @FCBayernUS: That is #Lewandowski's 40th goal in all competitions this season! 🔥🔥🔥🔥 #FCIFCB https://t.co/Rhs455R1ij
+12,156,557,673,27566,863,1.21,0.55,0.65,10,57,3,0.3,9,0,0,0,0,0.0,0,0.0,1,0.1,0,0.0,RT @invalid: Blood type: matte black with a hint of gold.
+12,4,143,88,14950,1201,0.62,0.38,0.12,7,152,16,2.29,77,0,0,0,2,0.29,0,0.0,1,0.14,1,0.13,RT @NiceSelfies: Displaying their tits in hot selfpics 19605
+site&gt;&gt;https://t.co/IuU98DkQZS
+game&gt;&gt;https://t.co/p9XQs4aURk https://t.co/h13Aq…
+13,101,1272,2584,379914,648,2.03,0.67,1.96,16,137,24,1.5,24,0,1,0,0,0.0,2,0.13,0,0.0,1,0.06,RT @ FCBayern "RT FCBayernUS: That is #Lewandowski's 40th goal in all competitions this season! 🔥🔥🔥🔥 #FCIFCB https://t.co/tSXEai9K3e"
+14,4,620,242,56493,288,0.39,0.28,2.15,5,61,21,4.2,23,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,RT @justineclaudia7: MAR ROXAS NATION https://t.co/RPpifrSCBj
+13,51,1321,466,35323,1461,0.35,0.26,0.9,5,50,14,2.8,23,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,RT @everygirI: I LOVE THIS https://t.co/OdpewxxB7h
+15,4,1962,770,7820,50,0.39,0.28,39.24,7,85,10,1.43,23,0,0,0,1,0.14,0,0.0,1,0.14,1,0.13,RT @diya4444prit1: Most Embarrassing Photos On The Internet
+
+ https://t.co/7Tme6uH0si
+14,154,173,85,1225,397,0.49,0.33,0.44,12,106,16,1.33,23,0,0,0,1,0.08,0,0.0,1,0.08,0,0.0,RT @__runningrebel: I dare somebody to say Michael couldn't sing again. DARE THEM. https://t.co/3xmzSUIzaK
+11,31,331,8186,34197,553,24.73,0.96,0.6,4,39,1,0.25,23,0,0,0,1,0.25,0,0.0,0,0.0,0,0.0,oo one day lang https://t.co/ytS7i92swz
+8,83,588,587,3439,197,1.0,0.5,2.98,9,80,11,1.22,23,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,RT @JaiBrooks1: Walking around with these bad boys today https://t.co/RImpVMOsT5
+13,160,7762,8585,710,152,1.11,0.53,51.07,14,124,20,1.43,23,0,0,0,1,0.07,0,0.0,1,0.07,0,0.0,RT @dhanjeet12: Mom Catches 16-Year-Old Daughter In Bed With A Boy, Then Does Something Unbelievable https://t.co/lJZcNIen42
+14,87,1950,387,54694,291,0.2,0.17,6.7,12,138,21,1.75,26,0,1,0,1,0.08,0,0.0,1,0.08,0,0.0,@GIPHY (https://t.co/oE6iFRLvWl): This GIF is trending! Tags: confused, archie comics, archies funhouse, stressed… https://t.co/XJrIZPhH14
+13,131,518,278,8178,862,0.54,0.35,0.6,23,138,10,0.43,17,0,0,0,0,0.0,0,0.0,1,0.04,1,0.04,RT @ClassicDadMoves: Going to McDonald's and telling the family to order off the dollar menu, but ordering himself a Big Mac and large fry
+9,4,203,278,4869,1266,1.37,0.58,0.16,13,77,4,0.31,12,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Would like to congratulate Mike Dean for making the worst decision I've seen.
+14,58,266,535,29436,1752,2.01,0.67,0.15,17,75,14,0.82,8,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,My Son Is Gonna Be 6 In 6 Days That Nigga Teeth Ain't Fell Out Yet 😓😣😫😱
+8,83,134,118,237,121,0.88,0.47,1.11,18,135,9,0.5,33,0,0,0,1,0.06,0,0.0,1,0.06,0,0.0,RT @TheLadBible: One of the lads didn't make it past pre-drinks, so his mates decided to take him out anyway...
+https://t.co/SurVd71pGr
+12,31,321,486,10639,372,1.51,0.6,0.86,9,66,6,0.67,15,0,0,0,0,0.0,0,0.0,1,0.11,0,0.0,RT @PapiiJaeBangz: Nowadays people charge you for their loyalty 😒
+11,78,137,107,12333,1548,0.78,0.44,0.09,25,133,0,0.0,10,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,it's also his body and not yours so don't get weirdly possessive of him, if he's happy and taking care of himself that's what matters
+10,68,1838,4307,249738,2221,2.34,0.7,0.83,6,56,8,1.33,23,0,0,0,0,0.0,0,0.0,1,0.17,0,0.0,RT @DommyDarko_: 23. Ol' No Name https://t.co/nwlmTaeecx
+14,56,1016,368,4062,1077,0.36,0.27,0.94,25,137,4,0.16,14,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,"We've got to hold on to what we've got
+'Cause it doesn't make a difference,
+If we make it or not,
+For love, we'll give it a shot"
+❤❤🎵🎵
+11,7,330,441,6674,422,1.34,0.57,0.78,19,140,78,4.11,20,0,0,0,1,0.05,1,0.05,1,0.05,0,0.0,RT @ninaadvin_: IM NOT RLLY A JUNGKOOK STAN, BUT THIS REALLY SHATTERED MY HEART. LYK OMZZ OUR MAKNAE IS CRYING. #화양연화onstageEpilogue https:…
+11,68,1378,1447,15975,38,1.05,0.51,36.26,13,140,16,1.23,23,0,1,0,2,0.15,2,0.15,2,0.15,0,0.0,RT @CFFBooks: Get your pulse racing! #scifi Shimmer in the Dark: Rogue Genesis by @CeriLondon https://t.co/wxK3bo6CiE #asmsg watch https://…
+7,141,205,21,71,1192,0.1,0.09,0.17,23,117,9,0.39,8,0,0,1,0,0.0,0,0.0,1,0.04,0,0.0,@Mozo_FI Hey, is there any ETA for the wooden back covers for the Lumia 950? I'd love to buy one and can't wait... ;)
+11,93,368,166,500,639,0.45,0.31,0.58,6,50,5,0.83,24,0,0,0,0,0.0,1,0.17,0,0.0,0,0.0,#SabadoDeGanarSeguidores ;D plz follow me &lt;3 :3
+12,10,486,682,12706,1272,1.4,0.58,0.38,16,84,11,0.69,12,0,0,0,0,0.0,0,0.0,1,0.06,0,0.0,RT @therealkvy: If you EVER talked to any of my friends don't EVER try coming my way
+9,25,137,51,2099,1423,0.37,0.27,0.1,7,55,5,0.71,16,0,0,0,0,0.0,0,0.0,1,0.14,0,0.0,@MitchHomieQuann Happy Birthday bro, party like a king.
+7,139,639,457,9676,2841,0.72,0.42,0.22,15,108,13,0.87,23,0,0,0,1,0.07,0,0.0,1,0.07,0,0.0,I added a video to a @YouTube playlist https://t.co/s4fVUWpe1i MinkaroXIV Plays - Geoguessr - #1 - Worldwide
+13,16,181,384,21316,1220,2.12,0.68,0.15,8,34,1,0.13,5,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,So ready for this 10 hour shift 🙃
+10,38,262,34,279,105,0.13,0.11,2.5,4,51,19,4.75,23,0,0,0,0,0.0,0,0.0,1,0.25,0,0.0,RT @TwicePIC: CHAEYOUNG 🍃. https://t.co/zXEnkbxbBR
+12,64,288,379,3760,784,1.32,0.57,0.37,6,24,1,0.17,4,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Prom day with no date 🤔
+13,51,2344,4149,205336,2232,1.77,0.64,1.05,17,122,11,0.65,14,0,0,0,0,0.0,0,0.0,3,0.18,0,0.0,@zurield22 @TayMasterChef @Mynamekee_ We not even 6 months in and Already done had Thug Migos Plies and Boosie.. And lucci
+11,14,362,492,6568,1190,1.36,0.58,0.3,5,59,10,2.0,23,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,RT @ThirtySecFights: Wait for it... https://t.co/fouEBXftMr
+9,83,305,266,15158,1139,0.87,0.47,0.27,13,140,28,2.15,23,0,0,0,1,0.08,0,0.0,1,0.08,0,0.0,RT @SuperheroFeed: BEN AFFLECK Reportedly Incredibly Unhappy About Batman V Superman Reception - https://t.co/teqapgnBG6 https://t.co/XaYUQ…
+6,34,871,1473,52754,2047,1.69,0.63,0.43,8,65,6,0.75,23,0,0,0,1,0.13,0,0.0,0,0.0,1,0.11,- y'all are making assumptions god, sTOP  https://t.co/Z5nk8wpzBK
+15,123,100,314,743,40,3.14,0.76,2.5,21,98,7,0.33,8,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,〔this is for training her. If I win then Adam can train her I guess. I'll ship my Blake with Sun.〕
+14,17,135,376,18575,1160,2.79,0.74,0.12,26,139,9,0.35,14,0,3,0,0,0.0,0,0.0,1,0.04,0,0.0,RT @skeetwoodmac: when in reality, type 2!!! diabetes comes from an unhealthy diet, type 1 UR BORN W and no matter what ur diet is, u will…
+8,95,279,380,1620,230,1.36,0.58,1.21,13,77,3,0.23,16,0,0,0,0,0.0,0,0.0,1,0.08,0,0.0,RT @joshfromalgoma: A steak so tender it rubs my shoulders and calls me baby.
+13,156,267,728,1721,1779,2.73,0.73,0.15,5,140,15,3.0,33,0,0,1,0,0.0,0,0.0,6,1.2,0,0.0,RT @guiltlessfoodie: Hazelnut-Chocolate Crepes anybody?
+Try them @The_DailyAffair
+
+@AllAboutPalate @instafoodiee @FooodGalli @Indieopus htt…
+9,48,335,690,13422,1273,2.06,0.67,0.26,19,140,13,0.68,21,0,0,0,0,0.0,1,0.05,2,0.11,0,0.0,RT @ManUtd: FT: Norwich 0 #mufc 1. @JuanMata8's second-half strike clinches a big win in the race for a top-four spot. https://t.co/pL7lTVD…
+15,39,904,1272,106683,1827,1.41,0.58,0.49,29,133,4,0.14,9,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,My cousin's daughter- who I call my child is 4 and she told me I'm not allowed  to have any children because all I need is her... lol
+14,4,7,1,2409,50,0.14,0.13,0.14,2,34,7,3.5,15,0,0,0,0,0.0,2,1.0,0,0.0,0,0.0,g morning #MtvColabLovato #MTVMiaw
+14,33,1927,2255,4596,17,1.17,0.54,113.35,2,44,7,3.5,23,0,0,0,1,0.5,0,0.0,1,0.5,0,0.0,RT @truntviews: GAGO https://t.co/A7byq1sop8
+9,127,245,4104,34778,1141,16.75,0.94,0.21,3,32,3,1.0,16,0,0,0,0,0.0,0,0.0,1,0.33,0,0.0,@TheSimCommunity just sharing :)
+12,25,514,409,3642,1658,0.8,0.44,0.31,16,97,1,0.06,9,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,Wish there was somewhere to revise outside on campus, hate being stuck inside with this weather😔
+13,147,44129,86052,620103,2386,1.95,0.66,18.49,2,21,1,0.5,13,0,0,0,0,0.0,1,0.5,0,0.0,0,0.0,#God is victorious...
+9,19,809,2942,209672,661,3.64,0.78,1.22,4,44,6,1.5,23,0,0,0,1,0.25,0,0.0,0,0.0,0,0.0,Fellaini is good. 😊 https://t.co/7K5ONDvdeL
+9,76,205,393,977,38,1.92,0.66,5.39,17,140,6,0.35,15,0,1,0,0,0.0,1,0.06,2,0.12,0,0.0,RT @clexasources: Let's spread some love and positivity, read below how to participate in the #wearebeautiful for @MisElizaJane tag! https:…
+12,122,651,258,1664,2646,0.4,0.28,0.25,5,93,14,2.8,23,0,0,0,1,0.2,3,0.6,1,0.2,0,0.0,RT @SouthCaucasus: #Panorama and the Assault on #Tbilisi #Ivanishvili https://t.co/Pv97AWSVzO
+10,27,2277,468,6580,363,0.21,0.17,6.27,6,69,30,5.0,23,0,0,0,0,0.0,0,0.0,1,0.17,0,0.0,RT @Kaushik1695S: 25DAYS OF BLOCKBUSTER THERI https://t.co/0GuhO4gYIm
+7,72,360,327,8508,1395,0.91,0.48,0.26,19,137,4,0.21,12,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,*In Costco
+"Come try this fruit based, sparkling antioxidant drink; great for fighting disease."
+No it's great for fighting this hangover
+8,4,69,15,580,2528,0.22,0.18,0.03,5,62,8,1.6,23,0,0,0,0,0.0,0,0.0,1,0.2,0,0.0,RT @EmrgencyKittens: the most handsome https://t.co/TixxTng6KB
+8,51,898,318,3371,2631,0.35,0.26,0.34,18,136,6,0.33,22,0,0,0,0,0.0,0,0.0,2,0.11,0,0.0,RT @justinhoyte84: Congrats to the mighty @Boro in winning promotion back to the Prem were they belong. Well done 👏🏾👏🏾⚽️👍🏾👍🏾👍🏾
+14,124,1907,3336,35311,1083,1.75,0.64,1.76,6,38,3,0.5,10,0,0,0,0,0.0,0,0.0,0,0.0,0,0.0,It's hotter than California in England

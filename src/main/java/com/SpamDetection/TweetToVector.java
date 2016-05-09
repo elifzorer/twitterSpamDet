@@ -43,6 +43,7 @@ public class TweetToVector implements Function<String, Vector>
                 {*/
             JsonNode user = root.get("user");
             user_created_age = TwitterDateParser.parseTwitterUTC(user.get("created_at").textValue());
+            System.out.println(user_created_age);
             statuses_count = user.get("statuses_count").intValue();
             //followers / number which user is following aka friends (spammers do this alot) -> Bigger the spammer lesser the value
             followers_ratio = (user.get("followers_count").floatValue() +1) / (user.get("friends_count").floatValue() + 1);
@@ -85,6 +86,7 @@ public class TweetToVector implements Function<String, Vector>
             // false if Messages with Short Content Length
             int text_lenght_result = (text_lenght > 0)? 1 : 0;
 
+            /*
 
             Vector dv = (Vector) Vectors.dense(user_created_age_result,statuses_count_result,followers_ratio_result,description_length_result,text_lenght_result,hashtag_count_result);
 
@@ -102,10 +104,8 @@ public class TweetToVector implements Function<String, Vector>
             return dv;
                /* }
                 return null;
-            }
-            return null;*/
-
-
+            }**/
+            return null;
 
         }
         catch (IOException ex)

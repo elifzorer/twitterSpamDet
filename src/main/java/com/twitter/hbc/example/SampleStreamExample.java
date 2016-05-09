@@ -76,8 +76,7 @@ public class SampleStreamExample {
   public static Integer numThreads = 2; // is the number of threads the kafka consumer should use
   private static final Pattern SPACE = Pattern.compile(" ");
   static StreamingKMeans model = new StreamingKMeans();
-
-  public static int tweetCount = 100;
+  public static int tweetCount = 5000;
   private final ObjectMapper mapper = new ObjectMapper();
 
   public static void run(String consumerKey, String consumerSecret, String token, String secret) throws InterruptedException {
@@ -119,6 +118,7 @@ public class SampleStreamExample {
 
     // Establish a connection
     client.connect();
+    ArrayList<String> TweetValues = new ArrayList<>();
 
     // Do whatever needs to be done with messages
     for (int msgRead = 0; msgRead < tweetCount; msgRead++) {
@@ -136,14 +136,20 @@ public class SampleStreamExample {
 
         if(!msg.contains("\"delete\""))   // gelen delete'li tweetleri eliyor
         {
-            System.out.print(msg);
+            //System.out.print(msg);
             JSONObject jsonObject = ConvertJSON.stringToJson(msg);
-            isSpam isSpam = new isSpam(jsonObject, tweetList);
+            try {
+              if(jsonObject.get("lang").toString().equals("en")){
+                  isSpam isSpam = new isSpam(jsonObject, TweetValues);
+              }
+            } catch (JSONException e) {
+              e.printStackTrace();
+            }
         }
       }
     }
 
-    ArffFile arff = new ArffFile(tweetList);
+    ArffFile arff = new ArffFile(TweetValues);
     if(arff.saveArffFile("spam.arff"))
         System.out.println("SPAM.ARFF Succeed");
 
@@ -154,6 +160,7 @@ public class SampleStreamExample {
     // Print some stats
     System.out.printf("The client read %d messages!\n", client.getStatsTracker().getNumMessages());
   }
+
 
   public static void main(String[] args) {
     try {
